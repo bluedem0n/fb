@@ -1,0 +1,23 @@
+.fa-facebook{
+	margin: 0.2em;
+}
+body{
+	background-color: #E9EBEE;
+}
+.btn-fb{
+	font-size: 13px;
+   background-color: #4267B2;
+}
+
+.btn-fb:hover{
+	font-size: 13px;
+	background-color: #4267B2;
+}
+.perfil {
+	margin-top: 10px;
+    height: 74px;
+    width: 45px;
+}
+.colum1{
+	width: 170px;
+}
