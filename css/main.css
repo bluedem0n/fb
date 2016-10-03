@@ -50,6 +50,10 @@ body {
 	color: white;
 }
 
+.tachar {
+	text-decoration-line: line-through;
+}
+
 
 /* Manipulando Text Area */
 
