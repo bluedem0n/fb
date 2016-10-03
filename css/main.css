@@ -1,23 +1,63 @@
-.fa-facebook{
-	margin: 0.2em;
-}
-body{
+body {
 	background-color: #E9EBEE;
-}
-.btn-fb{
-	font-size: 13px;
-   background-color: #4267B2;
+	font-family: helvetica, arial, sans-serif;
 }
 
-.btn-fb:hover{
-	font-size: 13px;
-	background-color: #4267B2;
+.text-span {
+	color: #365899;
 }
-.perfil {
-	margin-top: 10px;
-    height: 74px;
-    width: 45px;
+
+.fa-facebook {
+	margin: 18px;
 }
-.colum1{
-	width: 170px;
+
+.foto {
+	margin-top: 5px;
+}
+
+.btn {
+	font-size: 12px!important;
+	padding: 0 1rem;
+}
+
+.btn-publicar {
+	background-color: #4267b2;
+	border-color: #365899;
+}
+
+.btn-publicar:hover {
+	background-color: #365899;
+}
+
+.btn-publicar:focus {
+	background-color: #365899;
+}
+
+.btn-amigos {
+	background-color: #E9EBEE;
+	border-color: #ced0d4;
+	color: #4b4f56;
+	float: right;
+}
+
+.btn-amigos:hover {
+	background-color: #365899;
+	color: white;
+}
+
+.btn-amigos:focus {
+	background-color: #365899;
+	color: white;
+}
+
+
+/* Manipulando Text Area */
+
+textarea.materialize-textarea:focus:not([readonly]) {
+	border-bottom: 0px solid #26a69a;
+	box-shadow: 0 0px 0 0 #26a69a;
+}
+
+textarea {
+	border-bottom: 0px solid #9e9e9e !important;
 }
